@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #0C0C1D;
+    font-family: "Anybody", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/***** header ****/
+header{
+    margin: 0 100px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0C0C1D;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.logo img{
+    width: 50px;
+}
+
+.logo h3{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0C0C1D;
+}
+
+nav a{
+    margin-left: 15px;
+    color: #0C0C1D;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+a:hover{
+    border-bottom: 1px solid #0C0C1D;
+}
+
+/**** Landing Div ****/
+.landing-div{
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0C0C1D;
+}
+
+.text div{
+    width: 90%;
+}
+
+.text h1{
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    line-height: 70px;
+}
+
+.text h1 span{
+    color: #C1966D;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.btn-style{
+    padding: 10px 30px;
+    background-color: #C1966D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-style:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #0C0C1D;
+}
+
+.img{
+    padding-right: 100px;
+    width: 550px;
+    display: flex;
+    align-items: end;
+}
+
+.img img{
+    width: 450px;
+}
+
+/**** about ****/
+.about{
+    background-color: #0C0C1D;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    padding: 0px 100px;
+    width: 50%;
+    height: 200px;
+}
+
+.customers{
+    margin-bottom: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customers p{
+    margin-left: 5px;
+    line-height: 18px;
+    font-weight: 100;
+}
+
+.customers p span{
+    color: #C1966D;
+    font-weight: 400;
+}
+
+.content .p{
+    font-size: 1.1rem;
+}
+
+.outfit{
+    width: 550px;
+    height: 300px;
+    background-image: url('images/img1.png');
+    background-size: cover;
+    background-position: center; 
+}
+
+/**** new collections ****/
+.new-collections{
+    margin: 50px 100px 100px;
+}
+
+.top{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h1{
+    font-size: 3rem;
+}
+
+.browse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0C0C1D;
+    cursor: pointer;
+}
+
+.browse p:hover{
+    text-decoration: underline;
+}
+
+.browse p{
+    font-size: 20px;
+}
+
+.browse img{
+    margin-left: 5px;
+    width: 10px;
+}
+
+.styles{
+    display: flex;
+    justify-content: space-around;
+}
+
+.styles img{
+    width: 280px;
+}
+
+/**** Brands ****/
+.brands{
+    padding: 50px 100px 100px;
+    background-color: #0C0C1D;
+}
+
+.brands h1{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.brands div{
+    display: flex;
+    justify-content: center;
+}
+
+.brands img{
+    width: 80%;
+}
+
+/**** Call to Aciton ****/
+.c2a{
+    padding: 70px 100px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.container .guy{
+    width: 400px;
+    position:absolute;
+    left: 30px;
+    z-index: 5;
+}
+
+.blue-div{
+    padding: 0 150px;
+    height: 75%;
+    width: 100%;
+    background-color: #0C0C1D;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.blue-div img{
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+.blue-div div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-div div p{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.blue-div div button{
+    width: 50%;
+}
+
+/**** footer ****/
+
+footer{
+    padding: 100px 100px;
+    background-color: #0C0C1D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-shop{
+    width: 30%;
+}
+
+.about-shop .logo{
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.about-shop .logo h3{
+    color: #fff;
+}
+
+.about-shop p{
+    font-weight: 100;
+    color: #AAAAB0 !important;
+}
+
+.more{
+    width: 40%;
+    display: flex;
+}
+
+.more h3{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.more p, .more a{
+    margin-bottom: 10px;
+    color: #AAAAB0;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.more a:hover{
+    text-decoration: underline;
+}
+
+.links div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact, .links{
+    width: 50%;
+}
+
+.contact{
+    margin-left: 20px;
+}
+
+.phone, .email, .address{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.phone img, .email img, .address img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.social-media img{
+    margin-right: 10px;
+    cursor: pointer;
+}
